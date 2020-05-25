@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 700px;
+    width: 500px;
+}
+
+#box-1 {
+    background-color: gray;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.details h2 {
+    margin-right: 80px;
+    color: blue;
+    opacity: 0.5;
+    border-bottom: 1px solid white;
+    font-size: 25;
+}
+.details p {
+    color: white;
+    font-size: small;
+}
+
+.academic {
+    display: flex;
+}
+
+.academic-title {
+    display: flex;
+    margin-left: 20px;
+    color: lightblue;
+}
+
+.academic-details {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.academic-details p {
+    padding: -5px;
+}
+
+.hr-line {
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 150px;
+    height: 1px;
+    background-color: white;
+}
+
+.skills {
+    margin-left: 20px;
+    color: white;
+}
+.skills i {
+    color: goldenrod;
+}
+#box-2 {
+    background-color: black;
+    opacity: 0.7;
+    width: 50%;
+}
+
+img {
+    margin: 30px 10px 10px 60px;
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(161, 17, 17, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+}
+.information {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.information p {
+    margin-top: 7px;
+    color: white;
+}
+
+.icon-background {
+    display: flex;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.icon-background i {
+    color: white;
+}
+
+.Job-goals {
+    color: white;
+    margin-left: 5px;
+}
